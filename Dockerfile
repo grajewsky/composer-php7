@@ -1,4 +1,4 @@
-FROM php:7-alipne
+FROM php:7-alpine
 
 RUN apk upgrade && apk add curl openssh-client
 
