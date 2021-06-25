@@ -1,4 +1,4 @@
-FROM php:7-alpine
+FROM chialab/php:7.4-fpm
 
 RUN apk upgrade && apk add curl openssh-client git
 
